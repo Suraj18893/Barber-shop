@@ -710,7 +710,9 @@ hr{
   line-height: 35px;
 }
 
-@media(max-width: 1400px){
+@media screen 
+and (min-device-width : 700px) 
+and (max-device-width : 1400px){
   .footer-row p{
     font-size: 14px;
   }
@@ -750,4 +752,80 @@ hr{
   background: #009688;
   color: white;
   transform: translateY(-7px);
+}
+
+.social-links hr{
+  background: #009688;
+  width: 200px;
+}
+
+.social-links img{
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+.social-links p{
+  font-weight: bold;
+  /* font-size: 16px; */
+  margin-top: 12px;
+}
+
+.social-links h2{
+  font-size: 30px;
+
+}
+.social-links h3{
+  color: #009688;
+  margin-top: 14px;
+}
+
+@media(max-width: 700px){
+  .footer-left, .footer-right{
+    flex-basis: 100%;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .social-links .fab{
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    border: 1px solid #009688;
+    color: #009688;
+    margin: 40px 5px 0;
+    transition: 0.5s;
+    /* padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px; */
+    /* text-align: center; */
+  
+  }
+
+  .social-links img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+  .social-links p{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  
+  .social-links h3{
+    color: #009688;
+    margin-top: 14px;
+    font-size: 16px;
+  }
+
+  .social-links h2{
+    font-size: 20px;
+  }
+
+  .social-links hr{
+    width: 130px;
+  }
 }
