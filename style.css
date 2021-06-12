@@ -487,6 +487,10 @@ text-transform: uppercase;
   .features-img img{
     width: 100%;
   }
+
+  /* .feature-icon .far{
+    line-height: 50px;
+  } */
 }
 
 /* ------service------- */
@@ -834,5 +838,14 @@ and (max-device-width : 1400px){
 
   }
 
+}
+
+#preloader{
+  background: #000 url('Images/preloader.gif') no-repeat center center;
+  height: 100vh;
+  background-size: 30%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
