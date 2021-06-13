@@ -839,7 +839,7 @@ and (max-device-width : 1400px){
   }
 
 }
-/* 
+
 #preloader{
   background: #000 url('Images/preloader.gif') no-repeat center center;
   height: 100vh;
@@ -848,4 +848,4 @@ and (max-device-width : 1400px){
   position: fixed;
   z-index: 100;
 }
- */
+
